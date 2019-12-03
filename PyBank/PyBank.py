@@ -73,10 +73,3 @@ print(
     Greatest Increase in Profits: {dates[25]}, $({round(max_dPL, 2)})
     Greatest Decrease in Profits: {dates[44]}, $({round(min_dPL, 2)})
     """)
-
-
-# In[ ]:
-
-
-
-
