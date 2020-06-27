@@ -3,7 +3,7 @@
 import os
 import csv
 
-BUDGET_PATH = os.path.join('c:/Users/User/Documents/Homework Data/budget_data.csv')
+BUDGET_PATH = os.path.join('c:/Users/User/Desktop/DataViz/Repos/bank-electionAnalysis/data/budget_data.csv')
 #print(BUDGET_PATH)
 # open and read budget data set
 with open(BUDGET_PATH, newline='') as budget_path:
@@ -69,7 +69,7 @@ print(
     --------------------------------
     Total Months: {month}
     Total: {total}
-    Average Change in Profit/Loss: $({round(avg_dPL, 2)})
-    Greatest Increase in Profits: {dates[25]}, $({round(max_dPL, 2)})
-    Greatest Decrease in Profits: {dates[44]}, $({round(min_dPL, 2)})
+    Average Change in Profit/Loss: ${round(avg_dPL, 2)}
+    Greatest Increase in Profits: {dates[25]}, ${round(max_dPL, 2)}
+    Greatest Decrease in Profits: {dates[44]}, ${round(min_dPL, 2)}
     """)

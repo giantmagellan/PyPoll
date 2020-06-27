@@ -2,7 +2,7 @@
 import os
 import csv
 
-VOTE_PATH = os.path.join('c:/Users/User/Documents/Homework Data/election_data.csv')
+VOTE_PATH = os.path.join('c:/Users/User/Desktop/DataViz/Repos/bank-electionAnalysis/data/election_data.csv')
 print(VOTE_PATH)
 
 # reading election data csv file
@@ -29,8 +29,8 @@ def VOTES():
     khan_count = 0
     correy_count = 0
     totals = len(candidates)
-    percentages = []
-    each_votes = []
+    # percentages = []
+    # each_votes = []
     for i in candidates:
         if i == "Li":
             Li_count += 1 # adds each vote for Li to Li_count
